@@ -37,23 +37,26 @@ explained in the next section
 
 eg. Build all services
 
-cd scripts/
+```cd scripts/
 ./00_build_all.sh
-
+```
 
 eg, Start all services
 
-cd scripts/
+```cd scripts/
 ./00_launch_all.sh
-
+```
 
 eg. start a second copy of the microservices to see load balancing work
-cd scripts/
-./06_
+
+```cd scripts/
+./06_launch_second_copy_of_microservices.sh
+```
 
 eg. End all services
-./99_kill_em.sh
 
+```./99_kill_em.sh
+```
 Or use the individual scripts to start specific services.
 
 You can use 
