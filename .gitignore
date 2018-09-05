@@ -6,4 +6,3 @@
 *.ipr
 *.class
 */target/*
-*/logs/
