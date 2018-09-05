@@ -1,14 +1,16 @@
 # Spring-Boot-API-Gateway-(Zuul)-Naming-Service-(Eureka)-Config-Server-Example
 
->api_gateway_server
+## Services
 
->naming_server
+>api_gateway_server  (default port: 8761)
 
->config_server
+>naming_server       (default port: 8765)
 
->dummy_microservice_1
+>config_server       (default port: 8888)
 
->dummy_microservice_2
+>dummy_microservice_1  (default port:10001)
+
+>dummy_microservice_2  (default port:10002)
 
 For each service
 
@@ -32,11 +34,25 @@ mvn clean package
 
 >99_kill_em.sh
 
-eg,
+eg, Start all services
 
 ./00_all.sh
 
+eg. End all services
+
+./99_kill_em.sh
+
+Or use the individual scripts to start specific services.
+
+You can use 
+
+ps
+
+to see what services are still running
+
 ## Logs
+
+If you want to see the service logs (for the last start up of the service only) then they are stored in logs/
 
 >api-gateway-server.log
 
@@ -51,3 +67,13 @@ eg,
 eg.
 
 tail -f scripts/microservice_one.log
+
+## Naming Service Dashboard
+
+http://localhost:8761/
+
+## Invoking Microservices via the API Gateway
+
+http://localhost:8765/microservice_one/one/
+
+http://localhost:8765/microservice_two/two/
