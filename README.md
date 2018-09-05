@@ -37,9 +37,9 @@ explained in the next section
 
 eg. Build all services
 
-```cd scripts/
+`cd scripts/
 ./00_build_all.sh
-```
+`
 
 eg, Start all services
 
