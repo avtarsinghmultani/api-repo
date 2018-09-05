@@ -12,11 +12,8 @@
 
 >dummy_microservice_2  (default port:10002)
 
-For each service
-
-cd *service_directory*
-  
-mvn clean package
+Each of these services needs to be build, there is a script for that, 
+explained in the next section
 
 ## Scripts  
 
@@ -34,25 +31,34 @@ mvn clean package
 
 >05_microservice_two.sh
 
+>06_launch_second_copy_of_microservices.sh
+
 >99_kill_em.sh
+
+eg. Build all services
+
+cd scripts/
+./00_build_all.sh
+
 
 eg, Start all services
 
 cd scripts/
-
-./00_build_all.sh
-
 ./00_launch_all.sh
 
-eg. End all services
 
+eg. start a second copy of the microservices to see load balancing work
+cd scripts/
+./06_
+
+eg. End all services
 ./99_kill_em.sh
 
 Or use the individual scripts to start specific services.
 
 You can use 
 
-ps
+```ps```
 
 to see what services are still running
 
@@ -83,3 +89,9 @@ http://localhost:8761/
 http://localhost:8765/microservice_one/one/
 
 http://localhost:8765/microservice_two/two/
+
+## Additional endpoints added to services
+
+http://localhost:8765/microservice_one/actuator/health
+
+
