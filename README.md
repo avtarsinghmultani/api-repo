@@ -97,4 +97,6 @@ eg.
 
 `http://localhost:8765/microservice_one/actuator/health`
 
+`http://localhost:8765/microservice_one/actuator/env`
 
+`http://localhost:8765/microservice_one/actuator/env/PID`
