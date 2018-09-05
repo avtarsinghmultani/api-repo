@@ -13,6 +13,7 @@
 For each service
 
 cd <directory>
+  
 mvn clean package
 
 ## Scripts  
