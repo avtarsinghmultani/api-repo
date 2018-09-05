@@ -78,20 +78,20 @@ If you want to see the service logs (for the last start up of the service only) 
 
 eg.
 
-tail -f scripts/microservice_one.log
+`tail -f scripts/microservice_one.log`
 
 ## Naming Service Dashboard
 
-http://localhost:8761/
+`http://localhost:8761/`
 
 ## Invoking Microservices via the API Gateway
 
-http://localhost:8765/microservice_one/one/
+`http://localhost:8765/microservice_one/one/`
 
-http://localhost:8765/microservice_two/two/
+`http://localhost:8765/microservice_two/two/`
 
 ## Additional endpoints added to services
 
-http://localhost:8765/microservice_one/actuator/health
+`http://localhost:8765/microservice_one/actuator/health`
 
 
