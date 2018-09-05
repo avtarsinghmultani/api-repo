@@ -12,7 +12,7 @@
 
 For each service
 
-cd <directory>
+cd *service_directory*
   
 mvn clean package
 
