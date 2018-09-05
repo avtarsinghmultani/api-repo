@@ -20,7 +20,9 @@ mvn clean package
 
 ## Scripts  
 
->00_all.sh
+>00_build_all.sh
+
+>00_launch_all.sh
 
 >01_launch_config_server.sh
 
@@ -38,7 +40,9 @@ eg, Start all services
 
 cd scripts/
 
-./00_all.sh
+./00_build_all.sh
+
+./00_launch_all.sh
 
 eg. End all services
 
