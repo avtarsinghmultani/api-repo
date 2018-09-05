@@ -2,9 +2,9 @@
 
 ## Services
 
->api_gateway_server  (default port: 8761)
+>api_gateway_server  (default port: 8765)
 
->naming_server       (default port: 8765)
+>naming_server       (default port: 8761)
 
 >config_server       (default port: 8888)
 
