@@ -36,6 +36,8 @@ mvn clean package
 
 eg, Start all services
 
+cd scripts/
+
 ./00_all.sh
 
 eg. End all services
