@@ -13,3 +13,7 @@ echo across the two instances
 echo ""
 echo curl localhost:8765/microservice_one/actuator/env/PID
 echo ""
+echo Note, it takes a few successul health checks before
+echo the API Gateway will pass traffic to the new instances
+echo of the microservice.
+echo ""
