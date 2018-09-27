@@ -1,0 +1,112 @@
+2018-09-26 23:31:49.684  INFO 5591 --- [           main] s.c.a.AnnotationConfigApplicationContext : Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@3aa9e816: startup date [Wed Sep 26 23:31:49 UTC 2018]; root of context hierarchy
+2018-09-26 23:31:50.082  INFO 5591 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-26 23:31:50.136  INFO 5591 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'configurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3895ac41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.2.RELEASE)
+
+2018-09-26 23:31:50.422  INFO 5591 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Fetching config from server at : http://localhost:8888
+2018-09-26 23:31:50.764  WARN 5591 --- [           main] c.c.c.ConfigServicePropertySourceLocator : Could not locate PropertySource: label not found
+2018-09-26 23:31:50.767  INFO 5591 --- [           main] c.g.n.Naming_Server_Application          : No active profile set, falling back to default profiles: default
+2018-09-26 23:31:50.785  INFO 5591 --- [           main] ConfigServletWebServerApplicationContext : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27c20538: startup date [Wed Sep 26 23:31:50 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3aa9e816
+2018-09-26 23:31:52.030  INFO 5591 --- [           main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=1cacd82a-d1eb-37bb-967c-14dd3ada895d
+2018-09-26 23:31:52.054  INFO 5591 --- [           main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-09-26 23:31:52.253  INFO 5591 --- [           main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3895ac41] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2018-09-26 23:31:52.552  INFO 5591 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8761 (http)
+2018-09-26 23:31:52.586  INFO 5591 --- [           main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2018-09-26 23:31:52.586  INFO 5591 --- [           main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.31
+2018-09-26 23:31:52.599  INFO 5591 --- [ost-startStop-1] o.a.catalina.core.AprLifecycleListener   : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+2018-09-26 23:31:52.686  INFO 5591 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2018-09-26 23:31:52.686  INFO 5591 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1901 ms
+2018-09-26 23:31:52.952  WARN 5591 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-26 23:31:52.952  INFO 5591 --- [ost-startStop-1] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-26 23:31:52.974  INFO 5591 --- [ost-startStop-1] c.netflix.config.DynamicPropertyFactory  : DynamicPropertyFactory is initialized with configuration sources: com.netflix.config.ConcurrentCompositeConfiguration@56a338e5
+2018-09-26 23:31:53.963  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpTraceFilter' to: [/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'webMvcMetricsFilter' to: [/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2018-09-26 23:31:53.964  INFO 5591 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Servlet dispatcherServlet mapped to [/]
+2018-09-26 23:31:54.080  INFO 5591 --- [ost-startStop-1] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2018-09-26 23:31:54.164  INFO 5591 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-26 23:31:54.166  INFO 5591 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-26 23:31:54.337  INFO 5591 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-26 23:31:54.337  INFO 5591 --- [ost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-26 23:31:54.678  WARN 5591 --- [           main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2018-09-26 23:31:54.678  INFO 5591 --- [           main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2018-09-26 23:31:54.785  INFO 5591 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 23:31:55.034  INFO 5591 --- [           main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27c20538: startup date [Wed Sep 26 23:31:50 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3aa9e816
+2018-09-26 23:31:55.119  INFO 5591 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-26 23:31:55.120  INFO 5591 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-09-26 23:31:55.125  INFO 5591 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-09-26 23:31:55.126  INFO 5591 --- [           main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2018-09-26 23:31:55.157  INFO 5591 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 23:31:55.158  INFO 5591 --- [           main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-09-26 23:31:55.630  INFO 5591 --- [           main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@27c20538: startup date [Wed Sep 26 23:31:50 UTC 2018]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@3aa9e816] and template loader path [classpath:/templates/]
+2018-09-26 23:31:55.631  INFO 5591 --- [           main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2018-09-26 23:31:55.865  INFO 5591 --- [           main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2018-09-26 23:31:55.919  INFO 5591 --- [           main] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2018-09-26 23:31:55.919  INFO 5591 --- [           main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2018-09-26 23:31:55.934  INFO 5591 --- [           main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1538004715933 with initial instances count: 0
+2018-09-26 23:31:56.013  INFO 5591 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2018-09-26 23:31:56.016  INFO 5591 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : Adding new peer nodes [http://localhost:8761/eureka/]
+2018-09-26 23:31:56.198  INFO 5591 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2018-09-26 23:31:56.198  INFO 5591 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2018-09-26 23:31:56.198  INFO 5591 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2018-09-26 23:31:56.198  INFO 5591 --- [           main] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2018-09-26 23:31:56.331  INFO 5591 --- [           main] c.n.eureka.cluster.PeerEurekaNodes       : Replica node URL:  http://localhost:8761/eureka/
+2018-09-26 23:31:56.344  INFO 5591 --- [           main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2018-09-26 23:31:56.344  INFO 5591 --- [           main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2018-09-26 23:31:56.371  INFO 5591 --- [           main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2018-09-26 23:31:56.388  INFO 5591 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/health],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-09-26 23:31:56.389  INFO 5591 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator/info],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.web.servlet.AbstractWebMvcEndpointHandlerMapping$OperationHandler.handle(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.String>)
+2018-09-26 23:31:56.390  INFO 5591 --- [           main] s.b.a.e.w.s.WebMvcEndpointHandlerMapping : Mapped "{[/actuator],methods=[GET],produces=[application/vnd.spring-boot.actuator.v2+json || application/json]}" onto protected java.util.Map<java.lang.String, java.util.Map<java.lang.String, org.springframework.boot.actuate.endpoint.web.Link>> org.springframework.boot.actuate.endpoint.web.servlet.WebMvcEndpointHandlerMapping.links(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-09-26 23:31:56.492  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2018-09-26 23:31:56.501  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2018-09-26 23:31:56.502  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2018-09-26 23:31:56.503  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2018-09-26 23:31:56.506  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2018-09-26 23:31:56.515  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2018-09-26 23:31:56.528  INFO 5591 --- [           main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=27c20538,type=ConfigurationPropertiesRebinder]
+2018-09-26 23:31:56.539  INFO 5591 --- [           main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2018-09-26 23:31:56.544  INFO 5591 --- [           main] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application naming_server with eureka with status UP
+2018-09-26 23:31:56.548  INFO 5591 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2018-09-26 23:31:56.548  INFO 5591 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2018-09-26 23:31:56.549  INFO 5591 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2018-09-26 23:31:56.575  INFO 5591 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2018-09-26 23:31:56.576  INFO 5591 --- [      Thread-13] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2018-09-26 23:31:56.576  INFO 5591 --- [      Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2018-09-26 23:31:56.576  INFO 5591 --- [      Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2018-09-26 23:31:56.576  INFO 5591 --- [      Thread-13] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2018-09-26 23:31:56.614  INFO 5591 --- [      Thread-13] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2018-09-26 23:31:56.615  INFO 5591 --- [           main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8761 (http) with context path ''
+2018-09-26 23:31:56.617  INFO 5591 --- [           main] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8761
+2018-09-26 23:31:56.620  INFO 5591 --- [           main] c.g.n.Naming_Server_Application          : Started Naming_Server_Application in 7.53 seconds (JVM running for 8.082)
+2018-09-26 23:32:06.338  INFO 5591 --- [nio-8761-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2018-09-26 23:32:06.338  INFO 5591 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2018-09-26 23:32:06.358  INFO 5591 --- [nio-8761-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 20 ms
+2018-09-26 23:32:06.862  INFO 5591 --- [nio-8761-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance APIGATEWAYSERVER/ip-172-31-1-219.ap-southeast-2.compute.internal:apigatewayserver:8765 with status UP (replication=false)
+2018-09-26 23:32:07.669  INFO 5591 --- [nio-8761-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance APIGATEWAYSERVER/ip-172-31-1-219.ap-southeast-2.compute.internal:apigatewayserver:8765 with status UP (replication=true)
+2018-09-26 23:32:21.367  INFO 5591 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_ONE/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_one:10001 with status UP (replication=false)
+2018-09-26 23:32:21.919  INFO 5591 --- [nio-8761-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_ONE/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_one:10001 with status UP (replication=true)
+2018-09-26 23:32:34.659  INFO 5591 --- [nio-8761-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_TWO/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_two:10002 with status UP (replication=false)
+2018-09-26 23:32:35.184  INFO 5591 --- [nio-8761-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_TWO/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_two:10002 with status UP (replication=true)
+2018-09-26 23:32:50.374  INFO 5591 --- [nio-8761-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_ITEM/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_item:10003 with status UP (replication=false)
+2018-09-26 23:32:50.890  INFO 5591 --- [nio-8761-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_ITEM/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_item:10003 with status UP (replication=true)
+2018-09-26 23:32:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:32:59.083  INFO 5591 --- [io-8761-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_USER/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_user:10004 with status UP (replication=false)
+2018-09-26 23:32:59.597  INFO 5591 --- [nio-8761-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance MICROSERVICE_USER/ip-172-31-1-219.ap-southeast-2.compute.internal:microservice_user:10004 with status UP (replication=true)
+2018-09-26 23:33:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:34:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:35:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:36:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:37:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:38:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2018-09-26 23:39:56.578  INFO 5591 --- [a-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
